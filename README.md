@@ -1,4 +1,4 @@
- 🧠 RAG PDF Uploader - Build Your Own Retrieval-Augmented Generation (RAG) Knowledge Base
+# 🧠 RAG PDF Uploader - Build Your Own Retrieval-Augmented Generation (RAG) Knowledge Base
 
 This repository contains a **ready-to-use Python script** that processes your **local PDF files**, converts them into **embeddings**, and **uploads them to Pinecone** for building a **Retrieval-Augmented Generation (RAG) chatbot**.
 
