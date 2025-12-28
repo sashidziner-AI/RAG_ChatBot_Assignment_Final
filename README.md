@@ -30,8 +30,7 @@ This repository contains a **ready-to-use Python script** that processes your **
    ```bash
    pip install pinecone openai langchain pdfplumber tiktoken
 
-
-##⚙️ Configuration
+## ⚙️ Configuration
 In the script, update the following values:
 
 openai_api_key = "YOUR_OPENAI_API_KEY"
@@ -47,7 +46,7 @@ YOUR_LOCAL_PDF_DIRECTORY_PATH – Full path to the folder where your PDFs are st
 Example for Windows:
 pdf_folder = r"C:\Users\YourName\Documents\MyPDFs"
 
-##▶️ How to Run
+## ▶️ How to Run
 Open Command Prompt or Terminal.
 
 Navigate to the folder containing the script.
@@ -56,24 +55,22 @@ Run the script:
 python RAG_Chatbot.py
 
 
-##📝 Example Use Case
+## 📝 Example Use Case
 You have a folder with 500 legal PDFs.
 You want to make them searchable in your AI chatbot.
 
 
-##✅ This script will:
-
+## ✅ This script will:
 Read all your PDFs.
 Convert them into searchable AI-friendly data.
 Upload them to Pinecone for RAG-based chatbots or support agents.
 
-
-##Example:
+## ✅ Example:
 Searching for "legal contracts" will also find "binding agreements" in a vector database.
 That’s why Pinecone is essential for building AI-powered search systems.
 
+## 💡 Next Steps:
 
-💡 Next Steps
 Build a chatbot frontend to query your data.
 Connect the retrieval pipeline using the same Pinecone index.
 Implement grounded prompting to improve response accuracy.
